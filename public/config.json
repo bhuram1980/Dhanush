@@ -34,22 +34,22 @@
       "save": {
         "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/save",
           "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
        "publish": {
         "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
       "stop": {
         "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       },
       "validate": {
         "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       }
     },
     "wizardSteps": [
