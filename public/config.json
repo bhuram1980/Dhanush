@@ -19,7 +19,7 @@
                 {"subscriberKey":"{{Contact.Key}}"}
             ],
           "outArguments": [],
-          "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/execute",
+          "url": "https://dhanush-btirumaladixit.replit.app/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -32,22 +32,22 @@
     },
     "configurationArguments": {
       "save": {
-        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/save",
+        "url": "https://dhanush-btirumaladixit.replit.app/journeybuilder/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/publish",
+        "url": "https://dhanush-btirumaladixit.replit.app/journeybuilder/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/stop",
+        "url": "https://dhanush-btirumaladixit.replit.app/journeybuilder/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/validate",
+        "url": "https://dhanush-btirumaladixit.replit.app/journeybuilder/validate",
         "verb": "POST",
         "useJwt": false
       }
