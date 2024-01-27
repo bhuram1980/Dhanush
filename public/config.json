@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-         "name": "CloudPage POST",
+         "name": "Dhanush Test",
           "description": "Sample Journey Builder Custom Activity",
           "step1Label": "Configure Activity"
         }
@@ -19,7 +19,7 @@
                 {"subscriberKey":"{{Contact.Key}}"}
             ],
           "outArguments": [],
-          "url": "https://automating-mc-jbca.herokuapp.com/journeybuilder/execute",
+          "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -32,22 +32,22 @@
     },
     "configurationArguments": {
       "save": {
-        "url": "https://automating-mc-jbca.herokuapp.com/journeybuilder/save",
+        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://automating-mc-jbca.herokuapp.com/journeybuilder/publish",
+        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://automating-mc-jbca.herokuapp.com/journeybuilder/stop",
+        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://automating-mc-jbca.herokuapp.com/journeybuilder/validate",
+        "url": "https://dhanushcustom-22483477bcfe.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
